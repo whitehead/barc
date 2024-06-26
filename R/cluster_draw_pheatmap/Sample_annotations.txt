@@ -1,0 +1,11 @@
+Sample	Sample treatment	Sample batch
+Sample1	control	A
+Sample2	treat1	A
+Sample3	treat2	A
+Sample4	control	B
+Sample5	treat1	B
+Sample6	treat2	B
+Sample7	control	C
+Sample8	control	C
+Sample9	treat1	C
+Sample10	treat2	C

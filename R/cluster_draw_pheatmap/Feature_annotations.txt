@@ -1,0 +1,11 @@
+Gene.ID	Gene GO term
+Gene1	GO8
+Gene2	GO8
+Gene3	GO8
+Gene4	GO5
+Gene5	GO5
+Gene6	GO9
+Gene7	GO9
+Gene8	GO9
+Gene9	GO9
+Gene10	GO9
