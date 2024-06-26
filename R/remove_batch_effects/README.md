@@ -1,11 +1,12 @@
 # Correct batch effects with sva's ComBat() and limma's removeBatchEffect()
 
 Input files:
-  1 - Log2-transformed matrix with row IDs in first column
-  2 - Sample info file: rows are identical to columns of data matrix file
-      One column is named "batch" 
-      One column can be names "covariate" [optional]
-      Other columns are ignored
+- 1 - Log2-transformed matrix with row IDs in first column
+- 2 - Sample info file: rows are identical to columns of data matrix file
+   -   One column is named "batch" 
+   -   One column can be names "covariate" [optional]
+   -   Other columns are ignored
+
 Output files (2) will be batch-corrected log2 matrix files.
 
 
@@ -20,4 +21,4 @@ Output files (2) will be batch-corrected log2 matrix files.
 ```
 
 Caveat: See "Methods that remove batch effects while retaining group differences may lead to exaggerated confidence in downstream analyses"
-[Pubmed: 26272994](https://www.ncbi.nlm.nih.gov/pubmed/26272994)
+[PubMed: 26272994](https://www.ncbi.nlm.nih.gov/pubmed/26272994)
