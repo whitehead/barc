@@ -1,5 +1,7 @@
 # Correct batch effects with sva's ComBat() and limma's removeBatchEffect()
 
+Required R packages: sva, limma, made4
+
 Input files:
 - 1 - Log2-transformed matrix with row IDs in first column
 - 2 - Sample info file: rows are identical to columns of data matrix file
