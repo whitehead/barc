@@ -1,6 +1,6 @@
-**Starting with actual values**
-- **log-transform, mean-center, and run hierarchical clustering on samples and on genes, all with Cluster 3.0**
-- **draw dendrograms of samples and genes, and draw a heatmap (with dendrograms)**
+**Starting with actual values,**
+- **log-transform, mean-center, and run hierarchical clustering on samples (columns) and on features (rows), all with Cluster 3.0**
+- **draw dendrograms of samples and features, and draw a heatmap (with dendrograms)**
 
 
 Typical simplest command    **./cluster_draw_pheatmap.R matrix outputPDF**
