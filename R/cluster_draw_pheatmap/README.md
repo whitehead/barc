@@ -2,6 +2,11 @@
 - **log-transform, mean-center, and run hierarchical clustering on samples (columns) and on features (rows), all with Cluster 3.0**
 - **draw dendrograms of samples and features, and draw a heatmap (with dendrograms)**
 
+Required Linux programs: 'cluster' ([Cluster 3.0](http://bonsai.hgc.jp/~mdehoon/software/cluster/software))
+
+Required R packages: pheatmap
+
+
 
 Typical simplest command    **./cluster_draw_pheatmap.R matrix outputPDF**
 ```
