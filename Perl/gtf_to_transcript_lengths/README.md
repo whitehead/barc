@@ -1,5 +1,5 @@
 # From a GTF file, extract the length of each transcript, creating a file of gene ID, transcript ID, and length.
-# Then summarize transcript lengths for each gene, creating output files of mean (*.meanGeneLength.txt) and median (*.medianGeneLength.txt) lengths.
+## Then summarize transcript lengths for each gene, creating output files of mean (*.meanGeneLength.txt) and median (*.medianGeneLength.txt) lengths.
 
 Required: Statistics::Lite, File::Basename
 
