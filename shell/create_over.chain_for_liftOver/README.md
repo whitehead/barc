@@ -1,5 +1,8 @@
 # Align two homologous genome regions and create a liftOver file to convert coordinates from one assembly/genome to another.  All important steps use code from UCSC Bioinformatics.
 
+Required UCSC utilities: axtChain, chainMergeSort, chainNet, faSplit, faToTwoBit, gfClient, gfServer, liftUp, netChainSubset, twoBitInfo (from https://hgdownload.soe.ucsc.edu/admin/exe/)
+
+NOTE: If the genome files get too big, this method might not work.
 
 ### Main command
 ```
