@@ -1,0 +1,10 @@
+Sample	group
+WT.1	WT
+WT.2	WT
+WT.3	WT
+GeneA.KO.1	GeneA.KO
+GeneA.KO.2	GeneA.KO
+GeneA.KO.3	GeneA.KO
+GeneB.KO.1	GeneB.KO
+GeneB.KO.2	GeneB.KO
+GeneB.KO.3	GeneB.KO

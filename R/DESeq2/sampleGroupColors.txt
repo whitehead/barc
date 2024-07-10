@@ -1,0 +1,5 @@
+sample	group	color
+UHR_1	UHR	purple
+UHR_2	UHR	purple
+brain_1	brain	red
+brain_2	brain	red

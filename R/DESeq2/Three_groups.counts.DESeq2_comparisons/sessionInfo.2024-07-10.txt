@@ -1,0 +1,45 @@
+[1] "Wed Jul 10 15:51:12 2024"
+R version 4.2.1 (2022-06-23)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 20.04.6 LTS
+
+Matrix products: default
+BLAS/LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.8.so
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+ [1] ggplot2_3.4.4               vsn_3.66.0                 
+ [3] DESeq2_1.38.3               SummarizedExperiment_1.28.0
+ [5] Biobase_2.58.0              MatrixGenerics_1.10.0      
+ [7] matrixStats_1.1.0           GenomicRanges_1.50.2       
+ [9] GenomeInfoDb_1.37.1         IRanges_2.32.0             
+[11] S4Vectors_0.36.2            BiocGenerics_0.44.0        
+[13] limma_3.54.2               
+
+loaded via a namespace (and not attached):
+ [1] httr_1.4.7             bit64_4.0.5            BiocManager_1.30.22   
+ [4] affy_1.76.0            mixsqp_0.3-48          blob_1.2.4            
+ [7] GenomeInfoDbData_1.2.9 pillar_1.9.0           RSQLite_2.3.3         
+[10] lattice_0.22-5         glue_1.6.2             RColorBrewer_1.1-3    
+[13] XVector_0.38.0         colorspace_2.1-0       preprocessCore_1.60.2 
+[16] Matrix_1.6-4           XML_3.99-0.16          pkgconfig_2.0.3       
+[19] invgamma_1.1           zlibbioc_1.44.0        xtable_1.8-4          
+[22] scales_1.3.0           affyio_1.68.0          BiocParallel_1.32.6   
+[25] tibble_3.2.1           annotate_1.76.0        KEGGREST_1.38.0       
+[28] generics_0.1.3         farver_2.1.1           cachem_1.0.8          
+[31] withr_2.5.2            ashr_2.2-63            hexbin_1.28.3         
+[34] cli_3.6.1              magrittr_2.0.3         crayon_1.5.2          
+[37] memoise_2.0.1          fansi_1.0.5            truncnorm_1.0-9       
+[40] tools_4.2.1            lifecycle_1.0.4        munsell_0.5.0         
+[43] locfit_1.5-9.8         irlba_2.3.5.1          DelayedArray_0.24.0   
+[46] AnnotationDbi_1.60.2   Biostrings_2.66.0      compiler_4.2.1        
+[49] rlang_1.1.2            grid_4.2.1             RCurl_1.98-1.13       
+[52] bitops_1.0-7           labeling_0.4.3         gtable_0.3.4          
+[55] codetools_0.2-19       DBI_1.1.3              R6_2.5.1              
+[58] dplyr_1.1.4            fastmap_1.1.1          bit_4.0.5             
+[61] utf8_1.2.4             parallel_4.2.1         SQUAREM_2021.1        
+[64] Rcpp_1.0.11            vctrs_0.6.5            geneplotter_1.76.0    
+[67] png_0.1-8              tidyselect_1.2.0      
