@@ -12,7 +12,7 @@ Required packages: limma, lattice
 ./normalize_matrix.R Sample_input.txt percentile=0.75 Sample_input.norm.75thpctile.txt nothing
 ```
 
-### Run quantile normalization but using different code (quantile_normalize.R) wiht somewhat difference interface
+### Run quantile normalization but using different code (quantile_normalize.R) with somewhat difference interface
 ```
 ./quantile_normalize.R Sample_input.txt Sample_input.quantileNorm2.txt
 ```
