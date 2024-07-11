@@ -1,4 +1,4 @@
-## Draw a Sankey diagram.
+## Draw a Sankey diagram
 
 Sankey diagrams can illustrate flux in dynamic processes.  In this application
 a Sankey diagram is generated to depict the relationships between two sets
