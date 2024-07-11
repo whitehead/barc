@@ -1,5 +1,4 @@
-## Draw a volcano plot for differential gene expression, highlighting an
-enriched gene-set/pathway.
+## Draw a volcano plot for differential gene expression, highlighting an enriched gene-set/pathway.
 
 `drawGSEAvolcano.R` can be used to draw a volcano plot that highlights genes
 belonging to specific pathway/gene-set.  It is assumed that the estimated
