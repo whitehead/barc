@@ -16,7 +16,7 @@ cd barc-main
 # Make all code executable
 find Perl   -name \*.pl -exec chmod 755 {} \;
 find Python -name \*.py -exec chmod 755 {} \;
-find R      -name \*.R -exec chmod 755 {} \;
+find R      -name \*.R  -exec chmod 755 {} \;
 find shell  -name \*.sh -exec chmod 755 {} \;
 # Create a new directory for links to all executables
 mkdir BaRC_code
