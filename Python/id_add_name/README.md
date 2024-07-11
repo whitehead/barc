@@ -30,4 +30,4 @@ annotations can optionally be included in the output by adding the
 Example command: `./id_add_name.py -r ref_annot.txt -q expr.txt -k 'Gene name' -c -e`
 
 ### Required packages
-pandas, argparse
+pandas (1.2.4), argparse (1.1)
