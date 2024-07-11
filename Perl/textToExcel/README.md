@@ -12,4 +12,4 @@ Required Perl modules: Spreadsheet::WriteExcel, Excel::Writer::XLSX
 ./txt2xlsx.pl myFiles.txt myData.xlsx
 ```
 
-Note: See also /nfs/BaRC_Public/BaRC_code/Perl/create_Excel_file/create_Excel_file.pl
+Note: See also Perl/create_Excel_file/create_Excel_file.pl
