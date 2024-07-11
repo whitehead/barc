@@ -1,0 +1,13 @@
+ID	label1	label2
+obj1	A	alpha
+obj2	B	alpha
+obj3	C	alpha
+obj4	A	beta
+obj5	B	beta
+obj6		beta
+obj7	A	gamma
+obj8	B	
+obj9	C	gamma
+obj10	A	delta
+obj11	B	delta
+obj12	C	delta
