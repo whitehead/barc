@@ -1,5 +1,0 @@
-BAM file = SampleA.bam
-Peaks file = SampleA_peaks.bed
-Number of mapped reads = 18575499
-Number of mapped reads assigned to a peak = 826340
-FRiP = 0.0444855
