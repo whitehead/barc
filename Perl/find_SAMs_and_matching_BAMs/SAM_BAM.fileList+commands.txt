@@ -1,0 +1,75 @@
+SAM files found (and matching BAM(s), if also found):
+
+SAM only: ../SAM_to_BAM_sort_index/mapped_reads.noHeader.sam
+SAM+BAM: ../SAM_to_BAM_sort_index/mapped_reads.sam <==> ../SAM_to_BAM_sort_index/mapped_reads.sorted.bam
+SAM only: ../SAM_to_fastq/mapped_reads.sam
+SAM only: ../compare2samFiles/input1.sam
+SAM only: ../compare2samFiles/input1.sam-common.sam
+SAM only: ../compare2samFiles/input1.sam-unique.sam
+SAM only: ../compare2samFiles/input2.sam
+SAM only: ../compare2samFiles/input2.sam-common.sam
+SAM only: ../compare2samFiles/input2.sam-unique.sam
+SAM only: ../compare2samFiles/GB/input1.sam
+SAM only: ../compare2samFiles/GB/input2.sam
+SAM only: ../compare2samFiles/GB/input1.sam-common.sam
+SAM only: ../compare2samFiles/GB/input1.sam-unique.sam
+SAM only: ../compare2samFiles/GB/input2.sam-common.sam
+SAM only: ../compare2samFiles/GB/input2.sam-unique.sam
+SAM+BAM: ../extract_SAM_flags/mapped_reads.sam <==> ../extract_SAM_flags/mapped_reads.bam
+SAM only: ../get_random_subset_of_SAM_reads/mapped_reads.25.sam
+SAM only: ../get_random_subset_of_SAM_reads/mapped_reads.sam
+SAM only: ../liftOverSam/Cvi.PE.sam
+SAM only: ../liftOverSam/Ler_0.sam
+SAM only: ../liftOverSam/TAIR10.PE.sam
+SAM only: ../liftOverSam/TAIR10.sam
+SAM only: ../liftOverSam/TEST/Cvi.PE.sam
+SAM+BAM: ../make_BAM_non-redundant/bowtie_out_sorted.sam <==> ../make_BAM_non-redundant/bowtie_out_sorted.bam
+SAM only: ../make_BAM_non-redundant/foo.sam
+SAM+BAM: ../make_BAM_non-redundant/sample_output.sorted.nr.sam <==> ../make_BAM_non-redundant/sample_output.sorted.nr.bam
+SAM only: ../split_BAM_by_insert_size/SampleReads.50-150.sam
+SAM only: ../split_BAM_by_insert_size/SampleReads.gt150.sam
+SAM only: ../split_BAM_by_insert_size/SampleReads.lt50.sam
+SAM+BAM: ../split_BAM_by_insert_size/mapped_reads.sam <==> ../split_BAM_by_insert_size/mapped_reads.bam
+SAM+BAM: ../find_SAMs_and_matching_BAMs/A.sam <==> ../find_SAMs_and_matching_BAMs/A.bam
+SAM+BAM: ../find_SAMs_and_matching_BAMs/B.SAM <==> ../find_SAMs_and_matching_BAMs/B.BAM
+SAM+BAM: ../find_SAMs_and_matching_BAMs/C.sam <==> ../find_SAMs_and_matching_BAMs/C.BAM ../find_SAMs_and_matching_BAMs/C.bam ../find_SAMs_and_matching_BAMs/C.sorted.BAM
+SAM only: ../find_SAMs_and_matching_BAMs/D.sam
+
+# If matching BAM file exists, delete SAM file.
+rm -f ../SAM_to_BAM_sort_index/mapped_reads.sam
+rm -f ../extract_SAM_flags/mapped_reads.sam
+rm -f ../make_BAM_non-redundant/bowtie_out_sorted.sam
+rm -f ../make_BAM_non-redundant/sample_output.sorted.nr.sam
+rm -f ../split_BAM_by_insert_size/mapped_reads.sam
+rm -f ../find_SAMs_and_matching_BAMs/A.sam
+rm -f ../find_SAMs_and_matching_BAMs/B.SAM
+rm -f ../find_SAMs_and_matching_BAMs/C.sam
+
+# If matching BAM file doesn't exist, create it.
+# Note that these commands will fail if the SAM file doesn't have a header.
+samtools view -bS ../SAM_to_BAM_sort_index/mapped_reads.noHeader.sam > ../SAM_to_BAM_sort_index/mapped_reads.noHeader.bam
+samtools view -bS ../SAM_to_fastq/mapped_reads.sam > ../SAM_to_fastq/mapped_reads.bam
+samtools view -bS ../compare2samFiles/input1.sam > ../compare2samFiles/input1.bam
+samtools view -bS ../compare2samFiles/input1.sam-common.sam > ../compare2samFiles/input1.sam-common.bam
+samtools view -bS ../compare2samFiles/input1.sam-unique.sam > ../compare2samFiles/input1.sam-unique.bam
+samtools view -bS ../compare2samFiles/input2.sam > ../compare2samFiles/input2.bam
+samtools view -bS ../compare2samFiles/input2.sam-common.sam > ../compare2samFiles/input2.sam-common.bam
+samtools view -bS ../compare2samFiles/input2.sam-unique.sam > ../compare2samFiles/input2.sam-unique.bam
+samtools view -bS ../compare2samFiles/GB/input1.sam > ../compare2samFiles/GB/input1.bam
+samtools view -bS ../compare2samFiles/GB/input2.sam > ../compare2samFiles/GB/input2.bam
+samtools view -bS ../compare2samFiles/GB/input1.sam-common.sam > ../compare2samFiles/GB/input1.sam-common.bam
+samtools view -bS ../compare2samFiles/GB/input1.sam-unique.sam > ../compare2samFiles/GB/input1.sam-unique.bam
+samtools view -bS ../compare2samFiles/GB/input2.sam-common.sam > ../compare2samFiles/GB/input2.sam-common.bam
+samtools view -bS ../compare2samFiles/GB/input2.sam-unique.sam > ../compare2samFiles/GB/input2.sam-unique.bam
+samtools view -bS ../get_random_subset_of_SAM_reads/mapped_reads.25.sam > ../get_random_subset_of_SAM_reads/mapped_reads.25.bam
+samtools view -bS ../get_random_subset_of_SAM_reads/mapped_reads.sam > ../get_random_subset_of_SAM_reads/mapped_reads.bam
+samtools view -bS ../liftOverSam/Cvi.PE.sam > ../liftOverSam/Cvi.PE.bam
+samtools view -bS ../liftOverSam/Ler_0.sam > ../liftOverSam/Ler_0.bam
+samtools view -bS ../liftOverSam/TAIR10.PE.sam > ../liftOverSam/TAIR10.PE.bam
+samtools view -bS ../liftOverSam/TAIR10.sam > ../liftOverSam/TAIR10.bam
+samtools view -bS ../liftOverSam/TEST/Cvi.PE.sam > ../liftOverSam/TEST/Cvi.PE.bam
+samtools view -bS ../make_BAM_non-redundant/foo.sam > ../make_BAM_non-redundant/foo.bam
+samtools view -bS ../split_BAM_by_insert_size/SampleReads.50-150.sam > ../split_BAM_by_insert_size/SampleReads.50-150.bam
+samtools view -bS ../split_BAM_by_insert_size/SampleReads.gt150.sam > ../split_BAM_by_insert_size/SampleReads.gt150.bam
+samtools view -bS ../split_BAM_by_insert_size/SampleReads.lt50.sam > ../split_BAM_by_insert_size/SampleReads.lt50.bam
+samtools view -bS ../find_SAMs_and_matching_BAMs/D.sam > ../find_SAMs_and_matching_BAMs/D.bam

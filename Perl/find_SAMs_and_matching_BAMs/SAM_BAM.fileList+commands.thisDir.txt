@@ -1,0 +1,15 @@
+SAM files found (and matching BAM(s), if also found):
+
+SAM+BAM: ./A.sam <==> ./A.bam
+SAM+BAM: ./B.SAM <==> ./B.BAM
+SAM+BAM: ./C.sam <==> ./C.BAM ./C.bam ./C.sorted.BAM
+SAM only: ./D.sam
+
+# If matching BAM file exists, delete SAM file.
+rm -f ./A.sam
+rm -f ./B.SAM
+rm -f ./C.sam
+
+# If matching BAM file doesn't exist, create it.
+# Note that these commands will fail if the SAM file doesn't have a header.
+samtools view -bS ./D.sam > ./D.bam
