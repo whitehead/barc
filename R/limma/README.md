@@ -5,7 +5,7 @@
 
 * Matrix file: first column contains feature names/IDs
    * first row contains sample names/IDs (and can't contain special characters, according to R)
-   * Values are expected NOT to be log-transformed; the code will do that (which is required before limmma analysis).
+   * Values are expected NOT to be log-transformed; the code will do that (which is required before limma analysis).
  * Design file: first column contains sample names/IDs
    * second column lists groups; any other columns are ignored
 
