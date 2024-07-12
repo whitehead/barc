@@ -1,0 +1,10 @@
+chr18	Ensembl	gene_body	10454625	10488698	.	+	.	gene_id "ENSG00000154856"; transcript_id "ENST00000355285";
+chr18	Ensembl	gene_body	10525873	10552766	.	+	.	gene_id "ENSG00000134265"; transcript_id "ENST00000580483";
+chr18	Ensembl	gene_body	10670244	11148761	.	-	.	gene_id "ENSG00000154864"; transcript_id "ENST00000582937";
+chr18	Ensembl	gene_body	109065	122222	.	+	.	gene_id "ENSG00000263006"; transcript_id "ENST00000608049";
+chr18	Ensembl	gene_body	11689136	11883144	.	+	.	gene_id "ENSG00000141404"; transcript_id "ENST00000334049";
+chr18	Ensembl	gene_body	11751562	11883144	.	+	.	gene_id "ENSG00000141404"; transcript_id "ENST00000334049";
+chr18	Ensembl	gene_body	11851389	11854448	.	+	.	gene_id "ENSG00000255112"; transcript_id "ENST00000526991";
+chr18	Ensembl	gene_body	11883472	11908796	.	-	.	gene_id "ENSG00000154889"; transcript_id "ENST00000588072";
+chr18	Ensembl	gene_body	11981427	12030885	.	+	.	gene_id "ENSG00000141401"; transcript_id "ENST00000588752";
+chr18	Ensembl	gene_body	12254318	12277594	.	+	.	gene_id "ENSG00000176194"; transcript_id "ENST00000320477";
