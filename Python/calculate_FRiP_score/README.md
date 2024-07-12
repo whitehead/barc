@@ -1,6 +1,8 @@
 # calculate Fraction of Reads in Peaks (FRiP)
 Note that a BED or a 'narrowPeak' file (as created by MACS) can be used to identify peaks.
 
+### Requirements: featureCounts
+
 ### Typical usage:
 ```
 ./calculate_FRiP_score.py SampleA.bam SampleA_peaks.narrowPeak
