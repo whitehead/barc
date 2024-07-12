@@ -1,0 +1,7 @@
+Sample	Group	Batch
+KO.1	KO	A
+KO.2	KO	B
+KO.3	KO	C
+WT.1	WT	A
+WT.2	WT	B
+WT.3	WT	C

@@ -1,0 +1,7 @@
+Sample	Group
+KO.1	KO
+KO.2	KO
+KO.3	KO
+WT.1	WT
+WT.2	WT
+WT.3	WT
