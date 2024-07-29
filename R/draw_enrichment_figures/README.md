@@ -6,6 +6,7 @@
 
 
 Plot top and bottom 10 terms (and truncate any term that's longer than 50 characters) with FDR less than 0.05
+
 but make points with a cex (circle size) limit that's 10 greater than the default (6) 
 
 ```
@@ -19,6 +20,7 @@ Plot top and bottom 20 terms (and truncate any term that's longer than 100 chara
 ```
 
 Plot top and bottom 30 terms (and truncate any term that's longer than 100 characters)
+
 but make points with a cex limit that's less than the default (6)
 
 ```
@@ -30,8 +32,11 @@ but make points with a cex limit that's less than the default (6)
 
 
 Same output with either 'pos' or 'neg' file, but both 'neg' and 'pos' files are read/required
+
 Plot top and bottom 20 terms (and truncate any term that's longer than 100 characters) with FDR less than 0.01
+
 Note: The number of terms displayed is also depended on the number of terms below the FDR cutoff.
+
 In this example, only 13 instead of 20 terms are plotted for positive NES values since only 13 terms are with FDR less than 0.01 
 
 
