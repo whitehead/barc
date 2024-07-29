@@ -1,4 +1,4 @@
-# filer and summarize gene set enrichment results from either fgsea or GSEA 
+# Filer and summarize gene set enrichment results from either fgsea or GSEA 
 
 
 
