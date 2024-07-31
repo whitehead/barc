@@ -1,4 +1,4 @@
-# Filter and summarize gene set enrichment results from either fgsea or GSEA 
+# Draw enrichment figures from a GSEA/fgsea output file 
 
 
 
