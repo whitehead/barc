@@ -2,7 +2,7 @@
 
 
 ```
-# USAGE: /home/gbell/BaRC_code/submatrix_selector.pl matrixFile rowIDfile columnIDfile > submatrixFile[output]
+# USAGE: submatrix_selector.pl matrixFile rowIDfile columnIDfile > submatrixFile[output]
 
 # To select only by row IDs:
 ./submatrix_selector.pl matrixFile rowIDfile > submatrixFile[output]
