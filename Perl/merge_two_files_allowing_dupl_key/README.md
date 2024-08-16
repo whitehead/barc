@@ -5,7 +5,7 @@
     ./merge_two_files_allowing_dupl_key.pl file.txt anno_file 1st_file_id_col out_col field_seperator
 
 ### Example:
-    ./merge_two_files_allowing_dupl_key.pl input.tsv anno.tsv 2 7 \~ > output.tsv
+    ./merge_two_files_allowing_dupl_key.pl input.tsv anno.tsv 3 4 \, > output.tsv
 
 ### Note:
 Assume both input text files are tab-delimited.
